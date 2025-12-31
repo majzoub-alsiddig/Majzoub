@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<title>Majzoub</title>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css>
+<link rel=stylesheet href=style.css>
+</head>
+<body class=light-mode>
+<nav class=navbar>
+<div class=logo>Majzoub</div>
+<div class=nav-links>
+<a href=#home class=active>Home</a>
+<a href=#about>About</a>
+<a href=#skills>Skills</a>
+<a href=#projects>Projects</a>
+<a href=#contact>Contact</a>
+</div>
+<button class=theme-toggle id=themeToggle>
+<i class="fas fa-moon"></i>
+</button>
+<button class=mobile-menu-btn id=mobileMenuBtn>
+<i class="fas fa-bars"></i>
+</button>
+</nav>
+<section class=hero id=home>
+<div class=hero-content>
+<div class=hero-image>
+<div class=profile-img-placeholder>
+<svg width=300 height=300 viewBox="0 0 300 300" xmlns=http://www.w3.org/2000/svg>
+<circle cx=150 cy=150 r=145 fill=#1971c2 fill-opacity=0.1 />
+<circle cx=150 cy=150 r=120 fill=#1971c2 fill-opacity=0.2 />
+<circle cx=150 cy=150 r=95 fill=#1971c2 />
+<text x=150 y=165 text-anchor=middle fill=white font-size=40 font-weight=bold>BM</text>
+</svg>
+</div>
+</div>
+<div class=hero-text>
+<h1 class=hero-title>Hi, I'm <span>Majzoub</span></h1>
+<h2 class=hero-subtitle>Front-End & Android Developer</h2>
+<p>I create beautiful, functional web and mobile applications with modern technologies and best
+practices. Passionate about clean code and user experience.</p>
+<button class=btn onclick="scrollToSection('contact')">Get in Touch</button>
+</div>
+</div>
+</section>
+<section class=section id=about>
+<h2 class=section-title>About Me</h2>
+<div class=about-content>
+<div class=about-text>
+<p>I am a passionate developer with expertise in modern web technologies and Android development. With
+several years of experience, I've worked on various projects ranging from small business websites to
+complex web applications.</p>
+<p>When I'm not coding, you can find me exploring new technologies, contributing to open-source
+projects, or mentoring aspiring developers.</p>
+</div>
+<div class=about-stats>
+<div class=skill-category>
+<h3>Education</h3>
+<ul class=skill-list>
+<li><i class="fas fa-graduation-cap"></i> Bachelor in Electrical & Electronic Engineering (2028)
+</li>
+<li><i class="fas fa-certificate"></i> Android Development (Flutter)</li>
+<li><i class="fas fa-certificate"></i> Android Development (Jetback compose)</li>
+<li><i class="fas fa-certificate"></i> Front-End Web Development</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class=section id=skills>
+<h2 class=section-title>My Skills</h2>
+<div class=skills-grid>
+<div class=skill-category>
+<h3>Front-End</h3>
+<ul class=skill-list>
+<li><i class="fab fa-html5"></i> HTML5 & CSS3</li>
+<li><i class="fab fa-js"></i> JavaScript (ES6+)</li>
+<li><i class="fab fa-react"></i> React.js</li>
+</ul>
+</div>
+<div class=skill-category>
+<h3>Mobile Development</h3>
+<ul class=skill-list>
+<li><i class="fab fa-android"></i> Android (Jetback compose)</li>
+<li><i class="fab fa-react"></i> React Native</li>
+<li><i class="fas fa-mobile-alt"></i> Flutter</li>
+</ul>
+</div>
+</div>
+</section>
+<section class=section id=projects>
+<h2 class=section-title>My Projects</h2>
+<div class=projects-grid>
+<div class=project-card>
+<div class=project-img-placeholder style=background-color:#8e44ad;height:200px;display:flex;align-items:center;justify-content:center;color:white>
+<i class="fas fa-tasks" style=font-size:3rem></i>
+</div>
+<div class=project-info>
+<h3>Todo Web App</h3>
+<p>Interactive task management application with drag-and-drop functionality, due date reminders, and
+priority categorization.</p>
+</div>
+</div>
+<div class=project-card>
+<div class=project-img-placeholder style=background-color:#e74c3c;height:200px;display:flex;align-items:center;justify-content:center;color:white>
+<i class="fas fa-paint-brush" style=font-size:3rem></i>
+</div>
+<div class=project-info>
+<h3>Drawing Web App</h3>
+<p>Browser-based drawing tool with multiple brush types, color palettes, layer management, and
+export functionality.</p>
+</div>
+</div>
+<div class=project-card>
+<div class=project-img-placeholder style=background-color:#34495e;height:200px;display:flex;align-items:center;justify-content:center;color:white>
+<i class="fas fa-book" style=font-size:3rem></i>
+</div>
+<div class=project-info>
+<h3>BM Blog Web App</h3>
+<p>Business management blog platform with article publishing, comment moderation, user
+subscriptions, and analytics tracking.</p>
+</div>
+</div>
+<div class=project-card>
+<div class=project-img-placeholder style=background-color:#16a085;height:200px;display:flex;align-items:center;justify-content:center;color:white>
+<i class="fas fa-flask" style=font-size:3rem></i>
+</div>
+<div class=project-info>
+<h3>Science Blog Web Page (Team)</h3>
+<p>Scientific content platform featuring research summaries, interactive diagrams, citation tools,
+and discussion forums.</p>
+</div>
+</div>
+<div class=project-card>
+<div class=project-img-placeholder style=background-color:#9b59b6;height:200px;display:flex;align-items:center;justify-content:center;color:white>
+<i class="fas fa-robot" style=font-size:3rem></i>
+</div>
+<div class=project-info>
+<h3>Chat AI Web App</h3>
+<p>Web-based conversational AI assistant with natural language processing, multiple AI models, and
+conversation history.</p>
+</div>
+</div>
+<div class=project-card>
+<div class=project-img-placeholder style=background-color:#3498db;height:200px;display:flex;align-items:center;justify-content:center;color:white>
+<i class="fas fa-cloud-sun" style=font-size:3rem></i>
+</div>
+<div class=project-info>
+<h3>Weather Android App</h3>
+<p>Mobile weather application with location-based forecasts, severe weather alerts, interactive
+maps, and customizable widgets.</p>
+</div>
+</div>
+<div class=project-card>
+<div class=project-img-placeholder style=background-color:#2c3e50;height:200px;display:flex;align-items:center;justify-content:center;color:white>
+<i class="fas fa-comments" style=font-size:3rem></i>
+</div>
+<div class=project-info>
+<h3>Chat AI App</h3>
+<p>Mobile AI chat application with voice input/output, offline mode, multiple language support, and
+personalized responses.</p>
+</div>
+</div>
+</div>
+</section>
+<section class=section id=contact>
+<h2 class=section-title>Get In Touch</h2>
+<div class=contact-content>
+<div class=contact-info>
+<div class=contact-item>
+<i class="fas fa-envelope"></i>
+<div>
+<h3>Email</h3>
+<p><a href=mailto:majzoubalsiddig@gmail.com style=text-decoration:none;color:inherit>majzoubalsiddig@gmail.com</a></p>
+</div>
+</div>
+<div class=contact-item>
+<i class="fas fa-phone"></i>
+<div>
+<h3>Phone</h3>
+<p>+249990634710</p>
+</div>
+</div>
+<div class=contact-item>
+<i class="fas fa-map-marker-alt"></i>
+<div>
+<h3>Location</h3>
+<p>Khartoum, Sudan</p>
+</div>
+</div>
+<div class=social-links>
+<a rel="noopener noreferrer" target=_blank href=https://wa.me/+249990634710 class=social-link style=background-color:#25d366>
+<i class="fab fa-whatsapp"></i>
+</a>
+<a rel="noopener noreferrer" target=_blank href=https://t.me/majzoub_siddig class=social-link style=background-color:#08c>
+<i class="fab fa-telegram"></i>
+</a>
+<a rel="noopener noreferrer" target=_blank href=https://www.facebook.com/majzoubAlSiddig class=social-link style=background-color:#1877f2>
+<i class="fab fa-facebook-f"></i>
+</a>
+<a rel="noopener noreferrer" target=_blank href=https://linkedin.com/in/majzoub-siddig class=social-link style=background-color:#0077b5>
+<i class="fab fa-linkedin-in"></i>
+</a>
+<a rel="noopener noreferrer" target=_blank href=https://github.com/Majzoub-alsiddig class=social-link style=background-color:#0c6b9f>
+<i class="fab fa-github"></i>
+</a>
+</div>
+</div>
+</div>
+</section>
+<footer class=footer>
+<div class=logo>Majzoub</div>
+<p class=copyright>© 2025 Majzoub. All rights reserved. <span>Version 1.0.0</span></p>
+</footer>
+<script src=main.js></script>
+</body>
+</html>

@@ -37,6 +37,7 @@
 <p>I create beautiful, functional web and mobile applications with modern technologies and best
 practices. Passionate about clean code and user experience.</p>
 <button class=btn onclick="scrollToSection('contact')">Get in Touch</button>
+<button class=btn onclick="(() => { const link = document.createElement('a'); link.href = './assets/cv.pdf'; link.download = 'cv.pdf'; link.click();})()">Download CV</button>
 </div>
 </div>
 </section>
@@ -216,7 +217,7 @@ personalized responses.</p>
 </section>
 <footer class=footer>
 <div class=logo>Majzoub</div>
-<p class=copyright>© 2025 Majzoub. All rights reserved. <span>Version 1.0.0</span></p>
+<p class=copyright>© 2025 Majzoub. All rights reserved. <span>Version 1.0.1</span></p>
 </footer>
 <script src=main.js></script>
 </body>
